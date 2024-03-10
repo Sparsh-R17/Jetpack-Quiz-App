@@ -78,8 +78,8 @@ dependencies {
     implementation(libs.androidx.lifecycle.runtime.ktx)
 
     //Dagger-Hilt
-    implementation(libs.hilt.android)
-    kapt(libs.hilt.android.compiler)
+    implementation("com.google.dagger:hilt-android:2.48")
+    kapt("com.google.dagger:hilt-android-compiler:2.48")
 
     //Retrofit
     implementation(libs.retrofit)
